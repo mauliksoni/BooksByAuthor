@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BooksByAuthor</string>
+    <string name="instruction">Select an Author to see the Books</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="spinner_propmpt">Select Author</string>
+    <string-array name="authors">
+        <item>Allen B. Tucker</item>
+        <item>Thomas H. Cormen</item>
+        <item>Dan Pilone</item>
+        <item>Michael Jesse Chonoles</item>
+        <item>Ravi Sethi</item>
+    </string-array>
+
+    <string name="Allen">1.Computer Science Handbook \n2.Programming Languages \n3.Fundamentals of Computing</string>
+    <string name="Thomas">1.Introduction to Algorithms \n2.Algorithms Unlocked</string>
+    <string name="Dan">1.UML 2.0 in a Nutshell \n2.Head First iPhone and iPad Development \n3.Head First Software Development \n4.Head First Algebra</string>
+    <string name="Michael">1.Succeeding with the Booch and OMT Methods \n2.UML 2 For Dummies</string>
+    <string name="Ravi">1.Programming Languages: Concepts and Constructs \n2.Compilers: Principles, Techniques, and Tools</string>
+
+</resources>

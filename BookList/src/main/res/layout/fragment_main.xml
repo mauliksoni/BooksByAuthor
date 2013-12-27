@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="soni.maulik.booksbyauthor.MainActivity$PlaceholderFragment">
+
+    <TextView
+        android:id="@+id/instructionlabel"
+        android:text="@string/instruction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"/>
+
+    <Spinner
+        android:id="@+id/authorspinner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/instructionlabel"
+        android:layout_margin="8dp"
+        android:prompt="@string/spinner_propmpt"
+        />
+
+    <TextView
+        android:id="@+id/booktext"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/authorspinner"
+        android:layout_margin="16dp"
+        />
+
+
+</RelativeLayout>
